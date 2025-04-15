@@ -16,7 +16,9 @@ int main() {
     }
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
-
+    for (itorre = 0; itorre < 5; itorre++){
+        printf("\nA torre se move para a direita");
+    }
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
 
