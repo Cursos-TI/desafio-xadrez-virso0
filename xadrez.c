@@ -10,7 +10,10 @@ int main() {
     int ibispo=0, itorre, irainha=0;
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
-
+    while (ibispo < 5){
+        printf("\nO bispo se move para cima-direita");
+        ibispo++;
+    }
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
 
