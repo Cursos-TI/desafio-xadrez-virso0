@@ -64,7 +64,13 @@
 
 int main(){
 
-    
+    moverTorre(5);
+    printf("\n");
+    moverRainha(8);
+    printf("\n");
+    moverBispo(5);
+    printf("\n");
+    moverCavalo(1);
 
     return 0;
 }
