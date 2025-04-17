@@ -26,9 +26,9 @@
     {
         for(int i = 0; i<1; i++)
         {
-            printf("O bispo se move para a direita\n");
+            printf("O bispo se move para a Direita\n");
         }
-    printf("O bispo se move para cima\n");
+    printf("O bispo se move para Cima\n");
     casas--;
     }
 }
@@ -44,14 +44,14 @@
             if (j == 2) 
             // Quando j for igual a 2, é hora de mover pra direita
             {
-                printf("O cavalo se move para a direita\n");
+                printf("O cavalo se move para a Direita\n");
                 break; // termina o loop
             }
 
             if (j < 2) 
             //quando j estiver menor que 2, o cavalo se move para cima, ou seja, duas vezes.
             {
-                printf("O cavalo se move para cima\n");
+                printf("O cavalo se move para Cima\n");
                 continue; // pula o loop, incrementa o j e volta para o for
             }
         }
