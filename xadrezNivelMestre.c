@@ -9,6 +9,16 @@
     }
 
 }
+
+void moverRainha(int casas)
+{
+    if (casas>0)
+    {
+        printf("A rainha se move para a Esquerda\n");
+        moverRainha(casas-1);
+    }
+
+}
     // Exemplo: Crie uma função recursiva para o movimento do Bispo.
 
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
